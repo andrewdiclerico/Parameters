@@ -11,7 +11,7 @@ div{
 }
 
 .hov:hover{
-    color: white;
+    color: lightgrey;
 }
 
 .hov:visited{
@@ -19,7 +19,7 @@ div{
 }
 
 .hov:visited:hover{
-    color: white;
+    color: lightgrey;
 }
 
 .hov{
