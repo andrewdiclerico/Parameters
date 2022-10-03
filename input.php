@@ -10,6 +10,30 @@
     <title>Input</title>
 </head>
 <body>
-    
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="">Parameters</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="input.php">New Test</a>
+              </li>
+            </ul>
+            <a class="navbar-nav nav-link disabled" href="login.php" style="padding-right:1%;">Login</a>
+            
+        </div>
+    </nav>
+
+
+
+
+    <!-- Footer -->
+    <footer class="foot">
+        <p class="cr">&copy 2022 <a class="hov" href="https://github.com/andrewdiclerico">Andrew DiClerico</a></p>
+    </footer>
+
 </body>
 </html>
