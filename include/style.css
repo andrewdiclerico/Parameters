@@ -14,6 +14,10 @@ div{
     color: white;
 }
 
+.hov:visited{
+    color:black;
+}
+
 .hov{
     color:black;
 }
