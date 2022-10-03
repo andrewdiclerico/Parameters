@@ -15,7 +15,7 @@ div{
 }
 
 .hov:visited{
-    color:lightgrey;
+    color:grey;
 }
 
 .hov:visited:hover{
@@ -23,7 +23,7 @@ div{
 }
 
 .hov{
-    color:lightgrey;
+    color:grey;
 }
 
 .foot{
