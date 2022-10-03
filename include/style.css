@@ -11,19 +11,19 @@ div{
 }
 
 .hov:hover{
-    color: lightgrey;
+    color: black;
 }
 
 .hov:visited{
-    color:black;
+    color:lightgrey;
 }
 
 .hov:visited:hover{
-    color: lightgrey;
+    color: black;
 }
 
 .hov{
-    color:black;
+    color:lightgrey;
 }
 
 .foot{
