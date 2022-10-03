@@ -16,10 +16,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                  <a class="nav-link" href="">Parameters</a>
+                  <a class="nav-link" href="/">Parameters</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="input.php">New Test</a>
+                <a class="nav-link" href="input.php">New Test</a>
               </li>
             </ul>
             <a class="navbar-nav nav-link disabled" href="login.php" style="padding-right:1%;">Login</a>
