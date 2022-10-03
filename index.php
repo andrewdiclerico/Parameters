@@ -43,7 +43,7 @@
 
 
     <footer class="foot">
-        &copy <a class="hov" href="https://github.com/andrewdiclerico">Andrew DiClerico</a>
+        <p class="foot">&copy </p><a class="hov" href="https://github.com/andrewdiclerico">Andrew DiClerico</a>
     </footer>
 
 </body>
