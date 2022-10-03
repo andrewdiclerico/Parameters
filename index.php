@@ -43,7 +43,7 @@
 
 
     <footer class="foot">
-        <p>&copy 2022 <a class="hov" href="https://github.com/andrewdiclerico">Andrew DiClerico</a></p>
+        <p class="cr">&copy 2022 <a class="hov" href="https://github.com/andrewdiclerico">Andrew DiClerico</a></p>
     </footer>
 
 </body>

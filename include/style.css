@@ -26,6 +26,10 @@ div{
     color:grey;
 }
 
+.cr{
+    color:grey;
+}
+
 .foot{
     position:fixed;
     bottom:0;
@@ -37,5 +41,4 @@ div{
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: white;
-    
 }
