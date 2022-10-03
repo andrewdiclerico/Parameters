@@ -14,6 +14,10 @@ div{
     color: white;
 }
 
+.hov{
+    color:black;
+}
+
 .foot{
     position:fixed;
     bottom:0;
