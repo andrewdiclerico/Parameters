@@ -18,7 +18,7 @@ div{
     color:black;
 }
 
-.hov:visited{
+.hov:visited:hover{
     color: white;
 }
 
