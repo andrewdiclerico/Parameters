@@ -18,6 +18,10 @@ div{
     color:black;
 }
 
+.hov:visited{
+    color: white;
+}
+
 .hov{
     color:black;
 }
