@@ -19,13 +19,11 @@
                   <a class="nav-link" href="#">Parameters</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="input.php">New Test</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link disabled" href="input.php">New Test</a>
               </li>
             </ul>
-            <a class="nav-link disabled" style="padding-right:2%;">Login</a>
+            <a class="navbar-nav nav-link" href="login.php" style="padding-right:1%;">Login</a>
+            
         </div>
     </nav>
 
@@ -35,6 +33,8 @@
          
         <h1>
             Home page information goes here
+            <br>
+            
         </h1>
 
 
@@ -42,7 +42,9 @@
 
 
 
-
+    <footer class="foot">
+        <a class="hov" href="https://github.com/andrewdiclerico"><u>&copy Andrew DiClerico</u>
+    </footer>
 
 </body>
 </html>

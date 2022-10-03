@@ -9,3 +9,21 @@ div{
     margin-top: 15px;
     background-color: white;
 }
+
+.hov:hover{
+    color: white;
+}
+
+.foot{
+    
+    
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:30px;
+    
+    
+    
+    
+}
