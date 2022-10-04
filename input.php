@@ -76,7 +76,7 @@
     
 
     <!-- form to get user inputs -->
-    <form class="form" action="" style="text-align:center;" method="post" >
+    <form class="form" action="input.php" style="text-align:center;" method="post" >
         <h1 class="title">New Test</h1> <!-- form title -->
         <label>Tank Name</label>
         <br />
