@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="include/style.css"/>    
     <title>Login</title>
 </head>
@@ -16,13 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                  <a class="nav-link" href="/">Parameters</a>
+                  <a class="nav-link" href="index.php">Parameters</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="input.php">New Test</a>
               </li>
             </ul>
-            <a class="navbar-nav nav-link disabled" href="login.php" style="padding-right:1%;">Login</a>
+            <a class="navbar-nav nav-link disabled" href="" style="padding-right:1%;">Login</a>
             
         </div>
     </nav>
