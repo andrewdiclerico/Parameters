@@ -1,7 +1,9 @@
 {
   "require" : {
+    "monolog/monolog": "2.0.*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
   }
+  
 }
