@@ -144,14 +144,12 @@
             <p><a href="index.php" class="hov">Discard Results</a></p>
 
         </form>
-        
-    
-    <?php
-        }
-    ?>
-
 
     </div>
+
+    <?php 
+        }
+    ?>
 
     <br />
     <br />
