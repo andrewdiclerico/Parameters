@@ -36,7 +36,7 @@
         //include databse connection file (db.php)
         include_once __DIR__ . '/include/db.php';
         // When form submitted, insert values into the database.
-        if (isset($_POST['tankDate'])) {
+        if (isset($_REQUEST['tankDate'])) {
             //set values equal to user inputs
             $testDate = ($_REQUEST['tankDate']);
             $testTankName = ($_REQUEST['tankName']);
