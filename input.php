@@ -72,69 +72,81 @@
         
     
 
-    
+    <div>
 
-    <!-- form to get user inputs -->
-    <form class="form" action="" style="text-align:center;" method="post" >
-        <h1 class="title">New Test</h1> <!-- form title -->
-        <label>Tank Name</label>
-        <br />
-        <input type="text" class="input" placeholder="Ocean" name="tankName" style="width:50%;" required />
-        <br />
-        <br />
-        <label>Date of Test</label>
-        <br />
-        <input type="date" class="input" name="tankDate" style="width:50%;" required />
-        <br />
-        <br />
-        <label>Water Temperature (Degrees Fahrenheit)</label>
-        <br />
-        <input type="number" class="input" placeholder="79" name="Temperature" style="width:50%;" />
-        <br />
-        <br />
-        <label>Ph</label>
-        <br>
-        <input type="number" class="input" placeholder="8.0" name="Ph" style="width:50%;" />
-        <br>
-        <br>
-        <label>Alkalinity</label>
-        <br>
-        <input type="number" class="input" placeholder="TBA" name="Alkalinity" style="width:50%;" />
-        <br>
-        <br>
-        <label>Calcium</label>
-        <br>
-        <input type="number" class="input" placeholder="TBA" name="Calcium" style="width:50%;" />
-        <br>
-        <br>
-        <label>Phosphate</label>
-        <br>
-        <input type="number" class="input" placeholder="TBA" name="Phosphate" style="width:50%;" />
-        <br>
-        <br>
-        <label>Ammonia</label>
-        <br>
-        <input type="number" class="input" placeholder="TBA" name="Ammonia" style="width:50%;" />
-        <br>
-        <br>
-        <label>Nitrite</label>
-        <br>
-        <input type="number" class="input" placeholder="TBA" name="Nitrite" style="width:50%;" />
-        <br>
-        <br>
-        <label>Nitrate</label>
-        <br>
-        <input type="number" class="input" placeholder="TBA" name="Nitrate" style="width:50%;" />
-        <br>
-        <br>
-        <br />
-        <input type="submit" name="submit" value="Post Results" class="login-button" />
-        <br />
-        <br />
-        <p><a href="index.php" class="hov">Discard Results</a></p>
-    </form>
+        <!-- form to get user inputs -->
+        <form class="form" action="" style="text-align:center;" method="post" >
+            <h1 class="title">New Test</h1> <!-- form title -->
+            <label>Tank Name</label>
+            <br />
+            <input type="text" class="input" placeholder="Ocean" name="tankName" style="width:50%;" required />
+            <br />
+            <br />
 
+            <label>Date of Test</label>
+            <br />
+            <input type="date" class="input" name="tankDate" style="width:50%;" required />
+            <br />
+            <br />
 
+            <label>Water Temperature (Degrees Fahrenheit)</label>
+            <br />
+            <input type="number" class="input" placeholder="79" name="Temperature" style="width:50%;" />
+            <br />
+            <br />
+
+            <label>Ph</label>
+            <br>
+            <input type="number" class="input" placeholder="8.0" name="Ph" style="width:50%;" />
+            <br>
+            <br>
+
+            <label>Alkalinity</label>
+            <br>
+            <input type="number" class="input" placeholder="TBA" name="Alkalinity" style="width:50%;" />
+            <br>
+            <br>
+
+            <label>Calcium</label>
+            <br>
+            <input type="number" class="input" placeholder="TBA" name="Calcium" style="width:50%;" />
+            <br>
+            <br>
+
+            <label>Phosphate</label>
+            <br>
+            <input type="number" class="input" placeholder="TBA" name="Phosphate" style="width:50%;" />
+            <br>
+            <br>
+
+            <label>Ammonia</label>
+            <br>
+            <input type="number" class="input" placeholder="TBA" name="Ammonia" style="width:50%;" />
+            <br>
+            <br>
+
+            <label>Nitrite</label>
+            <br>
+            <input type="number" class="input" placeholder="TBA" name="Nitrite" style="width:50%;" />
+            <br>
+            <br>
+            
+            <label>Nitrate</label>
+            <br>
+            <input type="number" class="input" placeholder="TBA" name="Nitrate" style="width:50%;" />
+            <br>
+            <br>
+            
+            <br />
+
+            <input type="submit" name="submit" value="Post Results" class="login-button" />
+            <br />
+            <br />
+
+            <p><a href="index.php" class="hov">Discard Results</a></p>
+        </form>
+
+    </div>
         
                
 
