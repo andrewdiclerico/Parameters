@@ -66,7 +66,7 @@
                 {
                     Header("Location:index.php");
                 }
-            } else {
+            } else {}
         ?>  
 
         
@@ -151,9 +151,8 @@
         </form>
 
 
-        <?php 
-            }
-        ?>
+        
+               
 
     </div>
 
