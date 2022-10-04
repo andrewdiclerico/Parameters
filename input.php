@@ -28,47 +28,51 @@
         </div>
     </nav>
 
-    <?php
 
-        //initializing variables
-        $id = "";
-        //include databse connection file (db.php)
-        include_once __DIR__ . '/include/db.php';
-        // When form submitted, insert values into the database.
-        if (isset($_REQUEST['tankDate'])) {
-            //set values equal to user inputs
-            $testDate = ($_REQUEST['tankDate']);
-            $testTankName = ($_REQUEST['tankName']);
-            $testTemperature = ($_REQUEST['Temperature']);
-            $testPh = ($_REQUEST['Ph']);
-            $testAlkalinity = ($_REQUEST['Alkalinity']);
-            $testCalcium = ($_REQUEST['Calcium']);
-            $testPhosphate = ($_REQUEST['Phosphate']);
-            $testAmmonia = ($_REQUEST['Ammonia']);
-            $testNitrite = ($_REQUEST['Nitrite']);
-            $testNitrate = ($_REQUEST['Nitrate']);
-            //set insert statement
-            $query = "INSERT into localcapstone_sum22.parameters (tankDate, tankName, Temperature, Ph, Alkalinity, Calcium, Phosphate, Ammonia, Nitrite, Nitrate) 
-            VALUES ('$testDate', '$testTankName', '$testTemperature', '$testPh', '$testAlkalinity', '$testCalcium', '$testPhosphate', '$testAmmonia', '$testNitrite', '$testNitrate')";
-            //execute sql statement
-            $result = mysqli_query($con, $query);
-            //if results = true, display that user added fish successfully and display link to profile
-            if ($result) 
-            {
-                Header("Location:index.php");
-            }
-            //else (if results = false), display add failed and display link to add fish)
-            else 
-            {
-                Header("Location:index.php");
-            }
-        } else {
-    ?>  
+    <br />
+    <div style="text-align:center;">
+
+        <?php
+
+            //initializing variables
+            $id = "";
+            //include databse connection file (db.php)
+            include_once __DIR__ . '/include/db.php';
+            // When form submitted, insert values into the database.
+            if (isset($_REQUEST['tankDate'])) {
+                //set values equal to user inputs
+                $testDate = ($_REQUEST['tankDate']);
+                $testTankName = ($_REQUEST['tankName']);
+                $testTemperature = ($_REQUEST['Temperature']);
+                $testPh = ($_REQUEST['Ph']);
+                $testAlkalinity = ($_REQUEST['Alkalinity']);
+                $testCalcium = ($_REQUEST['Calcium']);
+                $testPhosphate = ($_REQUEST['Phosphate']);
+                $testAmmonia = ($_REQUEST['Ammonia']);
+                $testNitrite = ($_REQUEST['Nitrite']);
+                $testNitrate = ($_REQUEST['Nitrate']);
+                //set insert statement
+                $query = "INSERT into localcapstone_sum22.parameters (tankDate, tankName, Temperature, Ph, Alkalinity, Calcium, Phosphate, Ammonia, Nitrite, Nitrate) 
+                VALUES ('$testDate', '$testTankName', '$testTemperature', '$testPh', '$testAlkalinity', '$testCalcium', '$testPhosphate', '$testAmmonia', '$testNitrite', '$testNitrate')";
+                //execute sql statement
+                $result = mysqli_query($con, $query);
+                //if results = true, display that user added fish successfully and display link to profile
+                if ($result) 
+                {
+                    Header("Location:index.php");
+                }
+                //else (if results = false), display add failed and display link to add fish)
+                else 
+                {
+                    Header("Location:index.php");
+                }
+            } else {
+        ?>  
 
         
-    <br />
+    
 
-    <div style="text-align:center;">
+    
 
         <!-- form to get user inputs -->
         <form class="form" action="" style="text-align:center;" method="post" enctype="multipart/form-data">
@@ -146,11 +150,16 @@
 
         </form>
 
+
+        <?php 
+            }
+        ?>
+
     </div>
 
-    <?php 
-        }
-    ?>
+    
+    
+    
 
 
     <br />
