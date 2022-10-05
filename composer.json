@@ -1,6 +1,6 @@
 {
   "require" : {
-    "stack": "heroku-22"
+
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
