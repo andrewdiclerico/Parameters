@@ -27,9 +27,6 @@
         </div>
     </nav>
 
-
-    <br />
-
     <?php
         //initializing variables
         $id = "";
@@ -41,6 +38,7 @@
             $testDate = ($_REQUEST['tankDate']);
             $testTankName = ($_REQUEST['tankName']);
             $testTemperature = ($_REQUEST['Temperature']);
+            $testSpecificGravity = ($_REQUEST['SpecificGravity']);
             $testPh = ($_REQUEST['Ph']);
             $testAlkalinity = ($_REQUEST['Alkalinity']);
             $testCalcium = ($_REQUEST['Calcium']);
@@ -49,16 +47,16 @@
             $testNitrite = ($_REQUEST['Nitrite']);
             $testNitrate = ($_REQUEST['Nitrate']);
             //set insert statement
-            $query = "INSERT into localcapstone_sum22.parameters (tankDate, tankName, Temperature, Ph, Alkalinity, Calcium, Phosphate, Ammonia, Nitrite, Nitrate) 
-            VALUES ('$testDate', '$testTankName', '$testTemperature', '$testPh', '$testAlkalinity', '$testCalcium', '$testPhosphate', '$testAmmonia', '$testNitrite', '$testNitrate')";
+            $query = "INSERT into localcapstone_sum22.parameters (tankDate, tankName, Temperature, SpecificGravity, Ph, Alkalinity, Calcium, Phosphate, Ammonia, Nitrite, Nitrate) 
+            VALUES ('$testDate', '$testTankName', '$testTemperature', '$testSpecificGravity', '$testPh', '$testAlkalinity', '$testCalcium', '$testPhosphate', '$testAmmonia', '$testNitrite', '$testNitrate')";
             //execute sql statement
             $result = mysqli_query($con, $query);
-            //if results = true, display that user added fish successfully and display link to profile
+            //if results = true, display that user added record successfully
             if ($result) 
             {
                 Header("Location:index.php");
             }
-            //else (if results = false), display add failed and display link to add fish)
+            //else (if results = false), display add failed
             else 
             {
                 Header("Location:index.php");
@@ -91,52 +89,58 @@
 
             <label>Water Temperature (Degrees Fahrenheit)</label>
             <br />
-            <input type="number" class="input" placeholder="79" name="Temperature" style="width:50%;" />
+            <input type="number" class="input" placeholder="79" step=".1" name="Temperature" style="width:50%;" />
+            <br />
+            <br />
+
+            <label>Specific Gravity</label>
+            <br />
+            <input type="number" class="input" placeholder="1.025" step=".001" name="SpecificGravity" style="width:50%;" />
             <br />
             <br />
 
             <label>Ph</label>
             <br>
-            <input type="number" class="input" placeholder="8.0" name="Ph" style="width:50%;" />
+            <input type="number" class="input" placeholder="8.0" step=".1" name="Ph" style="width:50%;" />
             <br>
             <br>
 
             <label>Alkalinity</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" name="Alkalinity" style="width:50%;" />
+            <input type="number" class="input" placeholder="TBA" step=".1" name="Alkalinity" style="width:50%;" />
             <br>
             <br>
 
             <label>Calcium</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" name="Calcium" style="width:50%;" />
+            <input type="number" class="input" placeholder="TBA" step=".1" name="Calcium" style="width:50%;" />
             <br>
             <br>
 
             <label>Phosphate</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" name="Phosphate" style="width:50%;" />
+            <input type="number" class="input" placeholder="TBA" step=".01" name="Phosphate" style="width:50%;" />
             <br>
             <br>
 
             <label>Ammonia</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" name="Ammonia" style="width:50%;" />
+            <input type="number" class="input" placeholder="TBA" step=".1" name="Ammonia" style="width:50%;" />
             <br>
             <br>
 
             <label>Nitrite</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" name="Nitrite" style="width:50%;" />
+            <input type="number" class="input" placeholder="TBA" step=".1" name="Nitrite" style="width:50%;" />
             <br>
             <br>
             
             <label>Nitrate</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" name="Nitrate" style="width:50%;" />
+            <input type="number" class="input" placeholder="TBA" step=".1" name="Nitrate" style="width:50%;" />
             <br>
             <br>
-            
+
             <br />
 
             <input type="submit" name="submit" value="Post Results" class="login-button" />
