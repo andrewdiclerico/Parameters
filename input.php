@@ -62,7 +62,7 @@
                 Header("Location:index.php");
             }
         } 
-        else if (!isset($_REQUEST['tankDate'])){
+        else if (isset($_REQUEST['tankDate'])){
 
         
     ?>  
