@@ -73,71 +73,71 @@
     <div>
 
         <!-- form to get user inputs -->
-        <form class="form" action="" style="text-align:center;" method="post" >
+        <form class="form" action="" method="post" >
             <h1 class="title">New Test</h1> <!-- form title -->
             <label>Tank Name</label>
             <br />
-            <input type="text" class="input" placeholder="Ocean" name="tankName" style="width:50%;" required />
+            <input type="text" class="input" placeholder="Ocean" name="tankName" style="text-align:center; width:50%;" required />
             <br />
             <br />
 
             <label>Date of Test</label>
             <br />
-            <input type="date" class="input" name="tankDate" style="width:50%;" required />
+            <input type="date" class="input" name="tankDate" style="text-align:center; width:50%;" required />
             <br />
             <br />
 
             <label>Water Temperature (Degrees Fahrenheit)</label>
             <br />
-            <input type="number" class="input" placeholder="79" step=".1" name="Temperature" style="width:50%;" />
+            <input type="number" class="input" placeholder="80" step=".1" name="Temperature" style="text-align:center; width:50%;" />
             <br />
             <br />
 
             <label>Specific Gravity</label>
             <br />
-            <input type="number" class="input" placeholder="1.025" step=".001" name="SpecificGravity" style="width:50%;" />
+            <input type="number" class="input" value="1.025" step=".001" name="SpecificGravity" style="text-align:center; width:50%;" />
             <br />
             <br />
 
             <label>Ph</label>
             <br>
-            <input type="number" class="input" placeholder="8.0" step=".1" name="Ph" style="width:50%;" />
+            <input type="number" class="input" placeholder="Ph" step=".1" name="Ph" style="text-align:center; width:50%;" />
             <br>
             <br>
 
             <label>Alkalinity</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" step=".1" name="Alkalinity" style="width:50%;" />
+            <input type="number" class="input" placeholder="Alkalinity" step=".1" name="Alkalinity" style="text-align:center; width:50%;" />
             <br>
             <br>
 
             <label>Calcium</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" step=".1" name="Calcium" style="width:50%;" />
+            <input type="number" class="input" placeholder="Calcium" step=".1" name="Calcium" style="text-align:center; width:50%;" />
             <br>
             <br>
 
             <label>Phosphate</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" step=".01" name="Phosphate" style="width:50%;" />
+            <input type="number" class="input" placeholder="Phosephate" step=".01" name="Phosphate" style="text-align:center; width:50%;" />
             <br>
             <br>
 
             <label>Ammonia</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" step=".1" name="Ammonia" style="width:50%;" />
+            <input type="number" class="input" value="0.0" step=".1" name="Ammonia" style="text-align:center; width:50%;" />
             <br>
             <br>
 
             <label>Nitrite</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" step=".1" name="Nitrite" style="width:50%;" />
+            <input type="number" class="input" value="0.0" step=".1" name="Nitrite" style="text-align:center; width:50%;" />
             <br>
             <br>
             
             <label>Nitrate</label>
             <br>
-            <input type="number" class="input" placeholder="TBA" step=".1" name="Nitrate" style="width:50%;" />
+            <input type="number" class="input" value="0.0" step=".1" name="Nitrate" style="text-align:center; width:50%;" />
             <br>
             <br>
 

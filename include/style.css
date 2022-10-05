@@ -42,3 +42,8 @@ div{
     margin-bottom: 15px;
     background-color: white;
 }
+
+.cen{
+    text-align:center;
+    width:45%;
+}
