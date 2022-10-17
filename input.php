@@ -119,7 +119,7 @@
 
             <label>Phosphate</label>
             <br>
-            <input type="number" class="input" placeholder="Phosephate" step=".01" name="Phosphate" style="text-align:center; width:50%;" />
+            <input type="number" class="input" placeholder="Phosphate" step=".01" name="Phosphate" style="text-align:center; width:50%;" />
             <br>
             <br>
 

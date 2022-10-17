@@ -14,7 +14,7 @@
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-sm navbar-light">        
         <div class="navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                   <a class="nav-link" href="">Parameters</a>
               </li>
@@ -32,38 +32,56 @@
     <div>
          
         <h1>
-            Home page information goes here
-            <br>
-            <br>
-
-            <table>
-
-                <thead>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </thead>
-
-            </table>
-
-
-
-
-
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            
+            Previous Tests
         </h1>
+        
+        <br>
+        <br>
 
+        <table class="table table-dark center">
+            <thead>
+                <tr>
+                    <td>Tank Name</td>
+                    <td>Date of Test</td>
+                    <td>Temperature</td>
+                    <td>Specific Gravity</td>
+                    <td>Ph</td>
+                    <td>Alkalinity</td>
+                    <td>Calcium</td>
+                    <td>Phosphate</td>
+                    <td>Ammonia</td>
+                    <td>Nitrite</td>
+                    <td>Nitrate</td>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                    include('include/db.php');
+                    $sql = "SELECT * FROM parameters;";
+                    $result = mysqli_query($con, $sql);
+                    while($row = mysqli_fetch_assoc($result)){
+                        echo "
+                        <tr>
+                            <td>" . $row['tankDate'] . "</td>
+                            <td>" . $row['tankName'] . "</td>
+                            <td>" . $row['Temperature'] . "</td>
+                            <td>" . $row['SpecificGravity'] . "</td>
+                            <td>" . $row['Ph'] . "</td>
+                            <td>" . $row['Alkalinity'] . "</td>
+                            <td>" . $row['Calcium'] . "</td>
+                            <td>" . $row['Phosphate'] . "</td>
+                            <td>" . $row['Ammonia'] . "</td>
+                            <td>" . $row['Nitrite'] . "</td>
+                            <td>" . $row['Nitrate'] . "</td>
+                        </tr>";
+                    }
+                ?>
+            </tbody>
+        </table>
 
+        <br>
+        <br>
+            
     </div>
 
 
