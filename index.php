@@ -35,6 +35,23 @@
             Home page information goes here
             <br>
             <br>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+
+            </table>
+
+
+
+
+
+
             <br>
             <br>
             <br>

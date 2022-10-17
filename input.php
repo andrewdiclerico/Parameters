@@ -47,7 +47,7 @@
             $testNitrite = ($_REQUEST['Nitrite']);
             $testNitrate = ($_REQUEST['Nitrate']);
             //set insert statement
-            $query = "INSERT into localcapstone_sum22.parameters (tankDate, tankName, Temperature, SpecificGravity, Ph, Alkalinity, Calcium, Phosphate, Ammonia, Nitrite, Nitrate) 
+            $query = "INSERT into param.parameters (tankDate, tankName, Temperature, SpecificGravity, Ph, Alkalinity, Calcium, Phosphate, Ammonia, Nitrite, Nitrate) 
             VALUES ('$testDate', '$testTankName', '$testTemperature', '$testSpecificGravity', '$testPh', '$testAlkalinity', '$testCalcium', '$testPhosphate', '$testAmmonia', '$testNitrite', '$testNitrate')";
             //execute sql statement
             $result = mysqli_query($con, $query);
