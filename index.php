@@ -42,7 +42,7 @@
             <thead>
                 <tr>
                     <td>Tank Name</td>
-                    <td>Date of Test</td>
+                    <td>Test Date</td>
                     <td>Temperature</td>
                     <td>Specific Gravity</td>
                     <td>Ph</td>
