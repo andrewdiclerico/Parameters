@@ -62,8 +62,8 @@
                     while($row = mysqli_fetch_assoc($result)){
                         echo "
                         <tr>
-                            <td>" . $row['tankDate'] . "</td>
                             <td>" . $row['tankName'] . "</td>
+                            <td>" . $row['tankDate'] . "</td>
                             <td>" . $row['Temperature'] . "</td>
                             <td>" . $row['SpecificGravity'] . "</td>
                             <td>" . $row['Ph'] . "</td>
