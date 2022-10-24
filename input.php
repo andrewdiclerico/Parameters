@@ -16,13 +16,13 @@
         <div class="navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                  <a class="nav-link" href="index.php">Parameters</a>
+                  <a class="nav-link hov" href="index.php">Parameters</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">New Test</a>
+                <a class="nav-link hov" href="">New Test</a>
               </li>
             </ul>
-            <a class="navbar-nav nav-link disabled" href="login.php" style="padding-right:1%;">Login</a>
+            <a class="navbar-nav nav-link hov disabled" href="login.php" style="padding-right:1%;">Login</a>
             
         </div>
     </nav>
@@ -70,11 +70,11 @@
         
     
 
-    <div>
+    <div style="overflow-x:auto">
 
         <!-- form to get user inputs -->
         <form class="form" action="" method="post" >
-            <h1 class="title">New Test</h1> <!-- form title -->
+            <h1 class="title" style="color: white;">New Test</h1> <!-- form title -->
             <label>Tank Name</label>
             <br />
             <input type="text" class="input" placeholder="Ocean" name="tankName" style="text-align:center; width:50%;" required />

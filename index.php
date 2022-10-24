@@ -16,13 +16,13 @@
         <div class="navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                  <a class="nav-link" href="">Parameters</a>
+                  <a class="nav-link hov" href="">Parameters</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="input.php">New Test</a>
+                <a class="nav-link hov" href="input.php">New Test</a>
               </li>
             </ul>
-            <a class="navbar-nav nav-link disabled" href="login.php" style="padding-right:1%;">Login</a>
+            <a class="navbar-nav nav-link hov disabled" href="login.php" style="padding-right:1%;">Login</a>
             
         </div>
     </nav>
@@ -31,7 +31,7 @@
     <!-- Home page information -->
     <div>
          
-        <h1>
+        <h1 style="color: white;">
             Previous Tests
         </h1>
         
