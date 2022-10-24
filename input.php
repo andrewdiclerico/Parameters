@@ -70,7 +70,7 @@
         
     
 
-    <div style="overflow-x:auto">
+    <div class="container" style="overflow-x:auto">
 
         <!-- form to get user inputs -->
         <form class="form" action="" method="post" >
