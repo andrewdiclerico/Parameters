@@ -105,4 +105,8 @@ only screen and (max-width: 760px),
 	td:nth-of-type(10):before { content: "Nitrite"; }
     td:nth-of-type(11):before {content: "Nitrate"; }
 
+    body{
+        background-image: url('../images/ParamBackgroundMobile.png');
+    }
+
 }
