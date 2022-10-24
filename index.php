@@ -57,7 +57,7 @@
             <tbody>
                 <?php
                     include('include/db.php');
-                    $sql = "SELECT * FROM parameters;";
+                    $sql = "SELECT * FROM parameters ORDER BY id DESC;";
                     $result = mysqli_query($con, $sql);
                     while($row = mysqli_fetch_assoc($result)){
                         echo "
